@@ -23,7 +23,7 @@ Navigating to these items with the arrow keys or selecting one with the correspo
 
 # Download
 
-[Unread Instapaper Articles]()
+[Unread Instapaper Articles](https://github.com/quells/unread-instapaper-alfred2/blob/master/Instapaper.alfredworkflow?raw=true)
 
 # Copyright
 
