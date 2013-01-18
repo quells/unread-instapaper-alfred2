@@ -31,11 +31,12 @@ The Instapaper name and logo are wholly owned by Marco Arment and Instapaper, LL
 
 # Version History
 
-## 1.1 - January 13, 2013
+## 1.1 - January 17, 2013
 
 - Cleaned up and condensed code
 - Added Instapaper icon
+- Made python binary
 
 ## 1.0 - January 13, 2013
 
-- Commit: Initial Release
+- Commit: Initial Release as a [gist](https://gist.github.com/4523191)
