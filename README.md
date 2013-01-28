@@ -1,5 +1,5 @@
-Unread Instapaper Articles in Alfred
-========================
+Instapaper Articles in Alfred
+===================
 
 A python script to display unread articles from Instapaper in the Alfred window. You will need Alfred Version 2 and an Instapaper account to use this.
 
@@ -7,11 +7,15 @@ A python script to display unread articles from Instapaper in the Alfred window.
 
 To install the Unread Instapaper Articles workflow, double click on ```Instapaper.alfredworkflow``` or drag the workflow to the workflow window in Alfred.
 
-Next, edit the first script filter by double clicking on it. Edit the line ```print(list(“USERNAME”, “PASSWORD”))``` to fill in your Instapaper account details. Be sure to keep these in quotes.
+Next, edit the first script filter by double clicking on it. Edit the line ```print(list(“USERNAME”, “PASSWORD”, ‘{query}’))``` to fill in your Instapaper account details. Be sure to keep these in quotes.
 
 # How to use
 
-Simply type ```instapaper``` (or whatever you configure) into Alfred. If your Instapaper login is successful, the results should be populated with articles from your unread folder in Instapaper.
+Simply type ```instapaper``` (or whatever you configure) into Alfred. If your Instapaper login is successful, the results should be populated with articles from your Unread folder in Instapaper.
+
+To display the Archive instead of the Unread folder, type ```instapaper archive```. Similarly, articles in the Liked/Starred folder can be displayed with ```instapaper liked``` or ```instapaper starred```.
+
+To filter the results, add your query after a space. For example, ```instapaper apple``` will only display results with ```apple``` in the title or description of the article. This is case insensitive and is compatible with regular expression syntax, if you’re into that.
 
 Navigating to these items with the arrow keys or selecting one with the corresponding shortcut should open the original article in the default browser. Holding ```alt``` while doing this will open the original article in Google Chrome (useful if you have Flash disabled in Safari and want to open a YouTube link).
 
@@ -19,17 +23,21 @@ Navigating to these items with the arrow keys or selecting one with the correspo
 
 [Dan Palmer's reddit workflow](http://danpalmer.me/blog/articles/2013-01-12-reddit-workflow-for-alfred-20.html)
 
-[Run BASH built-in commands in Python?](http://stackoverflow.com/questions/5460923/run-bash-built-in-commands-in-python), a question from [duanedesign](http://stackoverflow.com/users/401815/duanedesign)
-
 # Download
 
-[Unread Instapaper Articles](https://github.com/quells/unread-instapaper-alfred2/blob/master/Instapaper.alfredworkflow?raw=true)
+[Instapaper Alfred Workflow](https://github.com/quells/unread-instapaper-alfred2/blob/master/Instapaper.alfredworkflow?raw=true)
 
 # Copyright
 
 The Instapaper name and logo are wholly owned by Marco Arment and Instapaper, LLC. Kai Wells does not own or claim to own anything related to Instapaper.
 
 # Version History
+
+## 1.2 - January 27, 2013
+
+- Uses the urllib2 module to download the JSON data from Instapaper instead of a bash script. This significantly reduces the complexity of the script by eliminating regular expression filtering and improves results by using UTF strings.
+- To compensate for the reduced complexity, searching is implemented! Supports regular expressions in your query, but not boolean logic.
+- Also implemented other folders. ```archive```, ```starred```, and ```liked``` are reserved words for searching these folders instead of the unread folder.
 
 ## 1.1 - January 17, 2013
 
