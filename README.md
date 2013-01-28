@@ -36,7 +36,7 @@ The Instapaper name and logo are wholly owned by Marco Arment and Instapaper, LL
 ## 1.2 - January 27, 2013
 
 - Uses the urllib2 module to download the JSON data from Instapaper instead of a bash script. This significantly reduces the complexity of the script by eliminating regular expression filtering and improves results by using UTF strings.
-- To compensate for the reduced complexity, searching is implemented! Supports regular expressions in your query, but not boolean logic.
+- To compensate for the reduced complexity, searching is implemented! Supports regular expressions in your query, but not boolean logic strings like ```and```, ```or```, and ```not```.
 - Also implemented other folders. ```archive```, ```starred```, and ```liked``` are reserved words for searching these folders instead of the unread folder.
 
 ## 1.1 - January 17, 2013
