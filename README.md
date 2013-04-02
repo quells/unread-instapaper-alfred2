@@ -1,7 +1,7 @@
 Instapaper Articles in Alfred
 ===================
 
-A python script to display unread articles from Instapaper in the Alfred window. You will need Alfred Version 2 and an Instapaper account to use this.
+A python script to display unread articles from Instapaper in the Alfred window. You will need Alfred Version 2 and an Instapaper subscription **in addition to a normal account** to use this.
 
 # Installation
 
