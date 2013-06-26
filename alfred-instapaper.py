@@ -1,4 +1,4 @@
-# alfred-instapaper.py v1.2
+# alfred-instapaper.py v1.2.1
 # View Instapaper Articles in Alfred 2
 # A Python Script by Kai Wells (2013)
 # Probably not the most efficient way to do this, but it works!
@@ -32,14 +32,13 @@ def list(USERNAME, PASSWORD, QUERY = ""):
 	del items[0]
 	del items[0]
 	# PARSE ITEMS
-	xml = []
+	xml = [{'title': 'Instapaper', 'arg': 'http://www.instapaper.com', 'icon': 'icon.png'}]
 	for item in items:
 		if re.search(re.compile(QUERY, re.IGNORECASE), item[u'title']) or re.search(re.compile(QUERY, re.IGNORECASE), item[u'description']):
 			xml.append ({
 				'title': item[u'title'],
 				'subtitle': item[u'description'],
 				'arg': item[u'url'],
-				'uid': item[u'hash'],
 				'icon': 'icon.png'
 			})
 	# PLANT XML TREE

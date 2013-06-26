@@ -29,9 +29,14 @@ Navigating to these items with the arrow keys or selecting one with the correspo
 
 # Copyright
 
-The Instapaper name and logo are wholly owned by Marco Arment and Instapaper, LLC. Kai Wells does not own or claim to own anything related to Instapaper.
+The Instapaper name and logo are owned by [betaworks](http://betaworks.com) and [Marco Arment](http://www.marco.org). Kai Wells does not own or claim to own anything related to Instapaper.
 
 # Version History
+
+## 1.2.1 - June 26, 2013
+
+- Added an item at the top of the list that points to [the Instapaper website](http://www.instapaper.com) to make it easy to manage your saved articles.
+- Updated Copyright section to reflect the change in ownership of Instapaper.
 
 ## 1.2 - January 27, 2013
 
