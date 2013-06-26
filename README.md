@@ -19,9 +19,7 @@ To filter the results, add your query after a space. For example, ```instapaper 
 
 Navigating to these items with the arrow keys or selecting one with the corresponding shortcut should open the original article in the default browser. Holding ```alt``` while doing this will open the original article in Google Chrome (useful if you have Flash disabled in Safari and want to open a YouTube link).
 
-# Based upon
-
-[Dan Palmer's reddit workflow](http://danpalmer.me/blog/articles/2013-01-12-reddit-workflow-for-alfred-20.html)
+Based upon [Dan Palmer's reddit workflow](http://danpalmer.me/blog/articles/2013-01-12-reddit-workflow-for-alfred-20.html)
 
 # Download
 
