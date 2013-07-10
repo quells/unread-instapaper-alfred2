@@ -25,9 +25,9 @@ Based upon [Dan Palmer's reddit workflow](http://danpalmer.me/blog/articles/2013
 
 [Instapaper Alfred Workflow](https://github.com/quells/unread-instapaper-alfred2/blob/master/Instapaper.alfredworkflow?raw=true)
 
-# Copyright
+# Disclaimer
 
-The Instapaper name and logo are owned by [betaworks](http://betaworks.com) and [Marco Arment](http://www.marco.org). Kai Wells does not own or claim to own anything related to Instapaper.
+The Instapaper name, logo, and service are owned by [betaworks](http://betaworks.com) and [Marco Arment](http://www.marco.org). Kai Wells does not own or claim to own anything related to Instapaper.
 
 # Version History
 
