@@ -1,11 +1,13 @@
-Instapaper Articles in Alfred
+InstaAlfred
 ===================
 
-A python script to display unread articles from Instapaper in the Alfred window. You will need Alfred Version 2 and an Instapaper subscription **in addition to a normal account** to use this.
+### The Instapaper API has changed, so this workflow no longer works.
+
+A python script to display unread articles from Instapaper in the Alfred window. You will need Alfred v2 and an Instapaper subscription **in addition to a normal account** to use this.
 
 # Installation
 
-To install the Unread Instapaper Articles workflow, double click on ```Instapaper.alfredworkflow``` or drag the workflow to the workflow window in Alfred.
+To install the InstaAlfred workflow, double click on ```InstaAlfred.alfredworkflow``` or drag the workflow to the workflow window in Alfred.
 
 Next, edit the first script filter by double clicking on it. Edit the line ```print(list(“USERNAME”, “PASSWORD”, ‘{query}’))``` to fill in your Instapaper account details. Be sure to keep these in quotes.
 
@@ -19,11 +21,11 @@ To filter the results, add your query after a space. For example, ```instapaper 
 
 Navigating to these items with the arrow keys or selecting one with the corresponding shortcut should open the original article in the default browser. Holding ```alt``` while doing this will open the original article in Google Chrome (useful if you have Flash disabled in Safari and want to open a YouTube link).
 
-Based upon [Dan Palmer's reddit workflow](http://danpalmer.me/blog/articles/2013-01-12-reddit-workflow-for-alfred-20.html)
+Based on [Dan Palmer's reddit workflow](http://danpalmer.me/blog/articles/2013-01-12-reddit-workflow-for-alfred-20.html)
 
 # Download
 
-[Instapaper Alfred Workflow](https://github.com/quells/unread-instapaper-alfred2/blob/master/Instapaper.alfredworkflow?raw=true)
+[InstaAlfred Workflow](https://github.com/quells/unread-instapaper-alfred2/blob/master/Instapaper.alfredworkflow?raw=true)
 
 # Disclaimer
 
